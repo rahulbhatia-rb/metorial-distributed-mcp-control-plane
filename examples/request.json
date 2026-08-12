@@ -1,0 +1,12 @@
+{
+  "actor_id": "user-123",
+  "agent_id": "support-agent",
+  "tool": "stripe",
+  "operation": "read",
+  "arguments": {
+    "customer_id": "cus_demo"
+  },
+  "idempotency_key": "req-001",
+  "deadline_ms": 1500,
+  "trace_id": "trace-001"
+}
